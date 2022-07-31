@@ -1,0 +1,6 @@
+version: "3"
+services:
+  app:
+    image: ruby:3.1
+    volumes:
+      - .:/workspace

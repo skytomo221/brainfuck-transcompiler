@@ -1,0 +1,9 @@
+{
+    "ruby.rubocop.useBundler": true,
+    "ruby.intellisense": "rubyLocate",
+    "ruby.lint": {
+        "rubocop": {
+            "forceExclusion": true,
+        }
+    }
+}

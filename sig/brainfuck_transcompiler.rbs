@@ -1,4 +1,13 @@
 module BrainfuckTranscompiler
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  class Sentence
+    attr_reader operator: Symbol
+  end
+
+  class Translator
+    attr_reader source: String
+    def read: (String path) -> String
+  end
 end
